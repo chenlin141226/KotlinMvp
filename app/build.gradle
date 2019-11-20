@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions' //扩展插件
 
-apply plugin: 'kotlin-kapt'  //kapt3插件
+apply plugin: 'kotlin-kapt'  //kapt3插件 applicationId "com.jaffa.hardy.kotlinmvp3" implementation 'com.android.support:multidex:1.0.3'   multiDexEnabled true
 
 android {
     signingConfigs {
